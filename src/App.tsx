@@ -6,7 +6,7 @@ function App() {
     <>
       <div className="relative">
         <TopComponent />
-        <div className="blur_item"></div>
+        <div className="blur_item z-[500]"></div>
       </div>
       <BottomComponent />
     </>

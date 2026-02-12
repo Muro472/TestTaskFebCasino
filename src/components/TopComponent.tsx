@@ -43,7 +43,7 @@ export const TopComponent = () => {
           className="w-[326px] object-cover mt-[32px]"
         />
 
-        <div className="pt-[24px]">
+        <div className="pt-[24px] z-[1000]">
           <OpenTheGameButton onClick={handleClickOpen}>
             {t("OpenTheGame")}
           </OpenTheGameButton>
