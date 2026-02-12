@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import { InputBase } from "@mui/material";
 
-export const LanguageSelectInput = styled(InputBase)(({ theme }) => ({
+export const LanguageSelectInput = styled(InputBase)(() => ({
   color: "#BABABA",
   backgroundColor: "#FFFFFF1A",
   width: "289px",

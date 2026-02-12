@@ -12,7 +12,6 @@ import { useTranslation } from "react-i18next";
 import {
   Box,
   FormControl,
-  InputLabel,
   MenuItem,
   Select,
   type SelectChangeEvent,
