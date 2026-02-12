@@ -59,17 +59,9 @@ export const TopComponent = () => {
             transition: Transition,
           }}
         >
-          <iframe
-            id="inlineFrameExample"
-            title="Inline Frame Example"
-            width="100%"
-            height="100%"
-            src="https://gateway.eva-digital-playground.com/v0/casino/games/launch?gameId=n2-novomatic-book-of-ra-deluxe&channel=desktop&partnerKey=0wl&lobbyUrl=https://chinchincasino.com&mode=demo&language=en"
-          ></iframe>
           <AppBar sx={{ position: "relative" }}>
-            <Toolbar>
+            <Toolbar sx={{ display: "flex", justifyContent: "flex-end" }}>
               <IconButton
-                edge="start"
                 color="inherit"
                 onClick={handleClose}
                 aria-label="close"
@@ -78,6 +70,13 @@ export const TopComponent = () => {
               </IconButton>
             </Toolbar>
           </AppBar>
+          <iframe
+            id="inlineFrameExample"
+            title="Inline Frame Example"
+            width="100%"
+            height="100%"
+            src="https://gateway.eva-digital-playground.com/v0/casino/games/launch?gameId=n2-novomatic-book-of-ra-deluxe&channel=desktop&partnerKey=0wl&lobbyUrl=https://chinchincasino.com&mode=demo&language=en"
+          ></iframe>
         </Dialog>
       )}
     </div>
