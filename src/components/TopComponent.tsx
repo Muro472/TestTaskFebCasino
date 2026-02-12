@@ -52,6 +52,7 @@ export const TopComponent = () => {
 
       {open && (
         <Dialog
+          className="relative"
           fullScreen
           open={open}
           onClose={handleClose}
@@ -59,17 +60,12 @@ export const TopComponent = () => {
             transition: Transition,
           }}
         >
-          <AppBar sx={{ position: "relative" }}>
-            <Toolbar sx={{ display: "flex", justifyContent: "flex-end" }}>
-              <IconButton
-                color="inherit"
-                onClick={handleClose}
-                aria-label="close"
-              >
-                <CloseIcon />
-              </IconButton>
-            </Toolbar>
-          </AppBar>
+          <div className="absolute top-[-5px] right-[50px] z-[1000]">
+            <IconButton onClick={handleClose} aria-label="close">
+              <CloseIcon sx={{ color: "white" }} />
+            </IconButton>
+          </div>
+
           <iframe
             id="inlineFrameExample"
             title="Inline Frame Example"
