@@ -4,7 +4,7 @@ import SlotMachine from "../assets/SlotMachine.png";
 import { OpenTheGameButton } from "./buttons/OpenTheGameButton";
 import React from "react";
 import type { TransitionProps } from "@mui/material/transitions";
-import { AppBar, Dialog, IconButton, Slide, Toolbar } from "@mui/material";
+import { Dialog, IconButton, Slide } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 
 export const TopComponent = () => {
