@@ -20,6 +20,9 @@ import React, { useEffect } from "react";
 import i18next from "i18next";
 import { LanguageSelectInput } from "./inputs/LanguageSelectInput";
 
+import fr from "../assets/langs/fr.png";
+import en from "../assets/langs/en.png";
+
 const Socials: React.FC<{ mobile?: boolean }> = ({ mobile }) => {
   const { t } = useTranslation();
 
@@ -64,10 +67,21 @@ const LanguageSelector = () => {
           value={lang}
           label="region"
           onChange={handleChange}
-          input={<LanguageSelectInput />}
+          input={<LanguageSelectInput className="flex" />}
         >
-          <MenuItem value={"en"}>English</MenuItem>
-          <MenuItem value={"fr"}>French</MenuItem>
+          <MenuItem value={"en"} className="flex">
+            <img
+              src={en}
+              alt="English"
+              className="w-[24px] h-[24px] mr-[8px]"
+            />
+            English
+          </MenuItem>
+
+          <MenuItem value={"fr"} className="flex">
+            <img src={fr} alt="French" className="w-[24px] h-[24px] mr-[8px]" />
+            French
+          </MenuItem>
         </Select>
       </FormControl>
     </Box>

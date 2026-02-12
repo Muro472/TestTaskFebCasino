@@ -18,4 +18,10 @@ export const LanguageSelectInput = styled(InputBase)(() => ({
   "& .MuiSvgIcon-root": {
     color: "#BABABA",
   },
+
+  "& .MuiSelect-select": {
+    display: "flex",
+    alignItems: "center",
+    gap: "8px",
+  },
 }));
