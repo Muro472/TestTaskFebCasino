@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "SF Pro", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.bottom_component {
+  background: linear-gradient(270deg, #06225d 0%, #02011f 37.03%);
+}
+
+.download_casino_component {
+  border-radius: 24px;
+  border: 1px dotted #ff8d6b;
+  background-color: #ffffff0a;
+}
+
+.top_component {
+  position: relative;
+  background-image: url("./assets/top_component_image.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.blur_item {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 362px;
+  background: linear-gradient(360deg, #000000 20.07%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0.7;
+}
