@@ -20,6 +20,9 @@ export const DownloadCasinoComponent = () => {
           </label>
         </div>
         <InstallAppButton
+          sx={{
+            backgroundImage: t("BackgroundImage"),
+          }}
           startIcon={
             <img
               className="h-[40px]"

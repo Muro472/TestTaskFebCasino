@@ -15,6 +15,8 @@ const resources = {
       CasinoIsCertifiedByTheAnjouanGamingAuthority:
         "Casino is certified by the Anjouan Gaming Authority",
       UsOnSocialMedia: "Us on social media:",
+      BackgroundImage:
+        "linear-gradient(84.38deg, #FF8D6B 7.59%, #FFBA47 96.71%)",
     },
   },
   fr: {
@@ -27,6 +29,8 @@ const resources = {
       CasinoIsCertifiedByTheAnjouanGamingAuthority:
         "Casino est certifié par l'Autorité de jeu d'Anjouan",
       UsOnSocialMedia: "Nous sur les réseaux sociaux:",
+      BackgroundImage:
+        "linear-gradient(84.38deg, #4A90E2 7.59%, #50C878 96.71%)",
     },
   },
 };

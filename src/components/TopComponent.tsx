@@ -44,7 +44,12 @@ export const TopComponent = () => {
         />
 
         <div className="pt-[24px] z-[1000]">
-          <OpenTheGameButton onClick={handleClickOpen}>
+          <OpenTheGameButton
+            onClick={handleClickOpen}
+            sx={{
+              backgroundImage: t("BackgroundImage"),
+            }}
+          >
             {t("OpenTheGame")}
           </OpenTheGameButton>
         </div>
